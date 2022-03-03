@@ -1,0 +1,62 @@
+section
+{
+  background:yellow;
+}
+.banner
+{
+  background:white;
+  min-height:200px;
+}
+.banner .row
+{
+  text-align:center;
+  margin-top:50px;
+}
+.banner h1
+{
+  color:white;
+}
+.navbar-brand
+{
+	font: 25px "Century Gothic", "Times Roman", sans-serif;
+}
+.size
+{
+	font: 20px 'Ubuntu', sans-serif;
+	text-align:center;
+	border-top:10px solid;
+}
+
+
+/***********************************************************************
+*  OPAQUE NAVBAR SECTION
+***********************************************************************/
+.opaque-navbar {
+    background-color: rgba(0,0,0,0.5);
+    height: 60px;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
+}
+
+.opaque-navbar.opaque {
+    background-color: black;
+    height: 60px;
+    transition: background-color .5s ease 0s;
+}
+
+ul.dropdown-menu {
+    background-color: black;
+}
+
+@media (max-width: 992px) {
+  body
+  {
+    background:white;
+  }
+  .opaque-navbar {
+    background-color: black;
+    height: 60px;
+    transition: background-color .5s ease 0s;
+}
+
+}
